@@ -1,0 +1,23 @@
+.paragraph {
+  display: flex;
+  font-size: 36px;
+  line-height: 0.75;
+  padding: 40px;
+  max-width: 1280px;
+  color: white;
+  flex-wrap: wrap;
+  z-index: 30;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  .word {
+    position: relative;
+    margin-right: 12px;
+    margin-top: 12px;
+    
+    .shadow {
+      position: absolute;
+      opacity: 0%;
+    }
+  }
+}
